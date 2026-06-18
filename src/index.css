@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #0A0C10;
+  --panel: #11141B;
+  --panel-2: #161A22;
+  --border: #222934;
+  --text: #E6EDF3;
+  --dim: #8B95A5;
+  --faint: #5B6472;
+  --green: #3FB950;
+  --red: #F85149;
+  --amber: #E3B341;
+  --blue: #58A6FF;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: 'Archivo', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; }
+
+button { font-family: inherit; -webkit-tap-highlight-color: transparent; }
+a { -webkit-tap-highlight-color: transparent; }
+
+.mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-variant-ligatures: none;
+}
+
+/* atmospheric background; respects iOS safe areas for home-screen use */
+.ptf-bg {
+  min-height: 100vh;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+           env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background:
+    radial-gradient(900px 380px at 50% -120px, rgba(88, 166, 255, .10), transparent 70%),
+    linear-gradient(rgba(255, 255, 255, .018) 1px, transparent 1px) 0 0 / 100% 26px,
+    var(--bg);
+}
+
+.card-in { animation: cardIn .5s cubic-bezier(.2, .7, .2, 1) both; }
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.skel { animation: pulse 1.4s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: .7; } }
+
+.detail { overflow: hidden; transition: max-height .32s ease, opacity .28s ease; }
+.tap { transition: background .15s ease, border-color .15s ease, transform .12s ease; }
+.tap:active { transform: scale(.992); }
+.chip { transition: background .15s ease, color .15s ease, border-color .15s ease; }
