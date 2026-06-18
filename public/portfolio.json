@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-18T10:58:04.420Z",
+    "syncedAt": "2026-06-18T12:02:12.683Z",
     "source": "Drive"
   },
   "companies": [
@@ -46,48 +46,47 @@
     },
     {
       "id": "konecranes",
-      "ticker": "KCR",
+      "ticker": "KCR.HE",
       "name": "Konecranes Oyj",
-      "sector": "Industrials",
+      "sector": "Industrials / quality-cyclical",
       "region": "Finland",
       "currency": "EUR",
-      "ownershipStatus": "WATCH",
-      "action": "HOLD · WATCHLIST",
-      "score": 6.5,
-      "qc": "CONDITIONAL PASS",
-      "price": 31.2,
-      "low": 29,
-      "base": 30.5,
-      "high": 32,
-      "dataFreshness": "Q1 2026",
+      "ownershipStatus": "OWNED",
+      "action": "HOLD · WATCH",
+      "score": 7.1,
+      "qc": "QUALITY_CHECK WARN · FAIL 0 / ERROR 0",
+      "price": 0,
+      "low": 26,
+      "base": 31,
+      "high": 37,
+      "dataFreshness": "Q1 2026 + hard-gate / memo update 2026-06-04; Portfolio Dashboard V1 final release 2026-06-05",
       "triggers": [
         {
           "id": "konecranes-t1",
-          "t": "Industrial Equipment order intake reaccelerates",
-          "when": "Q2",
-          "status": "pending"
-        },
-        {
-          "id": "konecranes-t2",
-          "t": "Service margin expansion confirmed",
-          "when": "Q3",
-          "status": "pending"
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "Revenue recovery, backlog conversion, Service/Port margins and Industrial Equipment margin progress"
         }
       ],
       "caveats": [
         {
           "id": "konecranes-c1",
-          "text": "Industrial Equipment order book unverified vs official segment table",
-          "severity": "high"
+          "severity": "medium",
+          "text": "QUALITY_CHECK overall WARN despite FAIL 0 / ERROR 0"
         },
         {
           "id": "konecranes-c2",
-          "text": "Fair value pending re-derivation from normalization module",
-          "severity": "high"
+          "severity": "medium",
+          "text": "Current market price must be verified before using dashboard values for trading"
         }
       ],
-      "reviewed": "2026-05-28",
-      "next": "Q2 results · Jul 2026"
+      "reviewed": "2026-06-05",
+      "next": "Q2/Q3 2026 checkpoint: revenue recovery, backlog conversion, Service/Port margins and IE margin progress",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/1y4SAB8uKyM0WVLvs1JgRYWpQ6g6GsPZYLK4u0SV5UCU/edit",
+        "memo": "",
+        "masterlog": "https://docs.google.com/document/d/15dA4rfw0KiAGzWu3j5x_Noiy8TS26DZwSsQMr1mYhwg/edit"
+      }
     },
     {
       "id": "mandatum",
