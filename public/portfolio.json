@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-18T12:02:12.683Z",
+    "syncedAt": "2026-06-18T12:10:24.151Z",
     "source": "Drive"
   },
   "companies": [
@@ -137,35 +137,47 @@
     },
     {
       "id": "ssab",
-      "ticker": "SSAB B",
+      "ticker": "SSAB-A.ST",
       "name": "SSAB AB",
-      "sector": "Materials · Steel",
+      "sector": "Steel / quality cyclical transformation",
       "region": "Sweden",
       "currency": "SEK",
-      "ownershipStatus": "NOT_OWNED",
-      "action": "AVOID · NO EDGE",
-      "score": 5,
-      "qc": "PASS",
-      "price": 52,
-      "low": 44,
-      "base": 50,
-      "high": 56,
-      "dataFreshness": "Q1 2026",
-      "triggers": [],
+      "ownershipStatus": "OWNED",
+      "action": "WATCH · HOLD",
+      "score": 6.2,
+      "qc": "Overall WARN · PASS 15 / WARN 8 / FAIL 0",
+      "price": 0,
+      "low": 0,
+      "base": 0,
+      "high": 0,
+      "dataFreshness": "Q1 2026 + Memo V1 + Dashboard V4 + QUALITY_CHECK 2026-06-01",
+      "triggers": [
+        {
+          "id": "ssab-t1",
+          "status": "pending",
+          "when": "Q2 2026",
+          "t": "Segment EBITDA reconciliation, Oxelösund timing quantification, transformation progress and next quarterly cycle data"
+        }
+      ],
       "caveats": [
         {
           "id": "ssab-c1",
-          "text": "No clear mispricing at ~5.2x mid-cycle EV/EBITDA",
-          "severity": "low"
+          "severity": "medium",
+          "text": "Overall WARN; PASS 15, WARN 8, FAIL 0"
         },
         {
           "id": "ssab-c2",
-          "text": "Risk/reward skewed to downside",
-          "severity": "medium"
+          "severity": "medium",
+          "text": "Open WARNs: segment EBITDA to official numbers, Oxelösund delay discount, raw dashboard artifact archiving"
         }
       ],
-      "reviewed": "2026-04-22",
-      "next": "Q2 results · Jul 2026"
+      "reviewed": "2026-06-01",
+      "next": "Segment EBITDA reconciliation, Oxelösund timing quantification, transformation progress and next quarterly cycle data",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/14PJLHSQQ0hQnvP0EiJraYrGZnmdIqmudSDqo0409voQ/edit",
+        "memo": "https://docs.google.com/document/d/1wrCneOiStT1zRqbvTePWITeFRA02EoVl16iMIKTfHV0/edit",
+        "masterlog": "https://docs.google.com/document/d/1FvWSXuJWSmGb8AjOBu82zD8rCoKjAqSAk6axiuuG96U/edit"
+      }
     },
     {
       "id": "valmet",
