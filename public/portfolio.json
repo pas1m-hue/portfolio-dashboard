@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-06T14:02:00Z",
+    "syncedAt": "2026-06-18T10:58:04.420Z",
     "source": "Drive"
   },
   "companies": [
@@ -16,17 +16,30 @@
       "action": "BUY · PROVISIONAL",
       "score": 7.2,
       "qc": "PENDING · 4 ITEMS",
-      "price": 44.0,
-      "low": 40.0,
-      "base": 51.0,
-      "high": 66.0,
+      "price": 44,
+      "low": 40,
+      "base": 51,
+      "high": 66,
       "dataFreshness": "Q1 2026",
       "triggers": [
-        { "id": "golar-lng-t1", "t": "Contracted FLNG floor confirmation", "when": "—", "status": "pending" }
+        {
+          "id": "golar-lng-t1",
+          "t": "Contracted FLNG floor confirmation",
+          "when": "—",
+          "status": "pending"
+        }
       ],
       "caveats": [
-        { "id": "golar-lng-c1", "text": "4 open items pending before Investment Memo", "severity": "high" },
-        { "id": "golar-lng-c2", "text": "Bear-case contracted floor ~40 USD", "severity": "medium" }
+        {
+          "id": "golar-lng-c1",
+          "text": "4 open items pending before Investment Memo",
+          "severity": "high"
+        },
+        {
+          "id": "golar-lng-c2",
+          "text": "Bear-case contracted floor ~40 USD",
+          "severity": "medium"
+        }
       ],
       "reviewed": "2026-05-30",
       "next": "Memo phase pending"
@@ -43,17 +56,35 @@
       "score": 6.5,
       "qc": "CONDITIONAL PASS",
       "price": 31.2,
-      "low": 29.0,
+      "low": 29,
       "base": 30.5,
-      "high": 32.0,
+      "high": 32,
       "dataFreshness": "Q1 2026",
       "triggers": [
-        { "id": "konecranes-t1", "t": "Industrial Equipment order intake reaccelerates", "when": "Q2", "status": "pending" },
-        { "id": "konecranes-t2", "t": "Service margin expansion confirmed", "when": "Q3", "status": "pending" }
+        {
+          "id": "konecranes-t1",
+          "t": "Industrial Equipment order intake reaccelerates",
+          "when": "Q2",
+          "status": "pending"
+        },
+        {
+          "id": "konecranes-t2",
+          "t": "Service margin expansion confirmed",
+          "when": "Q3",
+          "status": "pending"
+        }
       ],
       "caveats": [
-        { "id": "konecranes-c1", "text": "Industrial Equipment order book unverified vs official segment table", "severity": "high" },
-        { "id": "konecranes-c2", "text": "Fair value pending re-derivation from normalization module", "severity": "high" }
+        {
+          "id": "konecranes-c1",
+          "text": "Industrial Equipment order book unverified vs official segment table",
+          "severity": "high"
+        },
+        {
+          "id": "konecranes-c2",
+          "text": "Fair value pending re-derivation from normalization module",
+          "severity": "high"
+        }
       ],
       "reviewed": "2026-05-28",
       "next": "Q2 results · Jul 2026"
@@ -62,28 +93,48 @@
       "id": "mandatum",
       "ticker": "MANTA",
       "name": "Mandatum Oyj",
-      "sector": "Insurance",
+      "sector": "Financials / wealth management & life insurance",
       "region": "Finland",
       "currency": "EUR",
       "ownershipStatus": "WATCH",
       "action": "WATCH · HOLD",
       "score": 6.2,
-      "qc": "PASS",
-      "price": 5.1,
-      "low": 4.9,
-      "base": 5.4,
-      "high": 5.9,
-      "dataFreshness": "Q1 2026",
-      "triggers": [
-        { "id": "mandatum-t1", "t": "Net finance result meets guidance", "when": "Q2", "status": "pending" }
-      ],
+      "qc": "CONDITIONAL PASS · MARKET DATA PENDING",
+      "price": 0,
+      "low": 0,
+      "base": 0,
+      "high": 0,
+      "dataFreshness": "Q1 2026 + FY2025 annual/SFCR + interim current market data 2026-06-02; external verification pending",
+      "triggers": [],
       "caveats": [
-        { "id": "mandatum-c1", "text": "Holdco cash-bridge sensitivity", "severity": "medium" },
-        { "id": "mandatum-c2", "text": "Net finance result misses vs guidance", "severity": "medium" },
-        { "id": "mandatum-c3", "text": "Double-counting risk in SOTP valuation", "severity": "high" }
+        {
+          "id": "mandatum-c1",
+          "severity": "medium",
+          "text": "Market data verification pending"
+        },
+        {
+          "id": "mandatum-c2",
+          "severity": "high",
+          "text": "Holding cash bridge unresolved"
+        },
+        {
+          "id": "mandatum-c3",
+          "severity": "medium",
+          "text": "Mandatum Life solo-SFCR unresolved"
+        },
+        {
+          "id": "mandatum-c4",
+          "severity": "medium",
+          "text": "SOTP and capital-light PBT normalization caveats remain"
+        }
       ],
-      "reviewed": "2026-05-12",
-      "next": "H1 results · Aug 2026"
+      "reviewed": "2026-06-02",
+      "next": "Q2 2026 report / market data verification / Mandatum Life solo-SFCR and cash bridge",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/1UlzKigFmRDM4hXzMqVFyDsZ0ZbKLaRKxfMzfG7jUOe8/edit",
+        "memo": "https://docs.google.com/document/d/1njHJFNloS4E-pxJye2an4oIJz_jvKcuwDajbcx5QUkI/edit",
+        "masterlog": "https://docs.google.com/document/d/1KIzmJ3nUaScQxNT6YfXR-7uO_XttmVFJ5xGWzRTukPg/edit"
+      }
     },
     {
       "id": "ssab",
@@ -94,17 +145,25 @@
       "currency": "SEK",
       "ownershipStatus": "NOT_OWNED",
       "action": "AVOID · NO EDGE",
-      "score": 5.0,
+      "score": 5,
       "qc": "PASS",
-      "price": 52.0,
-      "low": 44.0,
-      "base": 50.0,
-      "high": 56.0,
+      "price": 52,
+      "low": 44,
+      "base": 50,
+      "high": 56,
       "dataFreshness": "Q1 2026",
       "triggers": [],
       "caveats": [
-        { "id": "ssab-c1", "text": "No clear mispricing at ~5.2x mid-cycle EV/EBITDA", "severity": "low" },
-        { "id": "ssab-c2", "text": "Risk/reward skewed to downside", "severity": "medium" }
+        {
+          "id": "ssab-c1",
+          "text": "No clear mispricing at ~5.2x mid-cycle EV/EBITDA",
+          "severity": "low"
+        },
+        {
+          "id": "ssab-c2",
+          "text": "Risk/reward skewed to downside",
+          "severity": "medium"
+        }
       ],
       "reviewed": "2026-04-22",
       "next": "Q2 results · Jul 2026"
@@ -118,16 +177,20 @@
       "currency": "EUR",
       "ownershipStatus": "WATCH",
       "action": "PENDING · SYNC",
-      "score": 0.0,
+      "score": 0,
       "qc": "PENDING · SYNC",
-      "price": 13.0,
-      "low": 0.0,
-      "base": 0.0,
-      "high": 0.0,
+      "price": 13,
+      "low": 0,
+      "base": 0,
+      "high": 0,
       "dataFreshness": "—",
       "triggers": [],
       "caveats": [
-        { "id": "valmet-c1", "text": "Placeholder — sync required from terminal", "severity": "high" }
+        {
+          "id": "valmet-c1",
+          "text": "Placeholder — sync required from terminal",
+          "severity": "high"
+        }
       ],
       "reviewed": "—",
       "next": "Sync required"
@@ -141,18 +204,27 @@
       "currency": "EUR",
       "ownershipStatus": "OWNED",
       "action": "HOLD",
-      "score": 6.0,
+      "score": 6,
       "qc": "PASS",
       "price": 38.5,
-      "low": 35.0,
-      "base": 40.0,
-      "high": 45.0,
+      "low": 35,
+      "base": 40,
+      "high": 45,
       "dataFreshness": "FY2025",
       "triggers": [
-        { "id": "huhtamaki-t1", "t": "Volume recovery in flexible packaging", "when": "H2", "status": "pending" }
+        {
+          "id": "huhtamaki-t1",
+          "t": "Volume recovery in flexible packaging",
+          "when": "H2",
+          "status": "pending"
+        }
       ],
       "caveats": [
-        { "id": "huhtamaki-c1", "text": "Fibre-based segment margin recovery unconfirmed", "severity": "medium" }
+        {
+          "id": "huhtamaki-c1",
+          "text": "Fibre-based segment margin recovery unconfirmed",
+          "severity": "medium"
+        }
       ],
       "reviewed": "2026-03-15",
       "next": "Q2 results · Jul 2026"
@@ -166,16 +238,20 @@
       "currency": "USD",
       "ownershipStatus": "WATCH",
       "action": "PENDING · SYNC",
-      "score": 0.0,
+      "score": 0,
       "qc": "PENDING · SYNC",
       "price": 10.5,
-      "low": 0.0,
-      "base": 0.0,
-      "high": 0.0,
+      "low": 0,
+      "base": 0,
+      "high": 0,
       "dataFreshness": "—",
       "triggers": [],
       "caveats": [
-        { "id": "vale-c1", "text": "Placeholder — sync required from terminal", "severity": "high" }
+        {
+          "id": "vale-c1",
+          "text": "Placeholder — sync required from terminal",
+          "severity": "high"
+        }
       ],
       "reviewed": "—",
       "next": "Sync required"
