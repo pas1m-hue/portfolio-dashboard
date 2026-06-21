@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-21T12:24:27.688Z",
+    "syncedAt": "2026-06-21T12:27:02.132Z",
     "source": "Drive"
   },
   "companies": [
@@ -181,30 +181,35 @@
     },
     {
       "id": "valmet",
-      "ticker": "VALMT",
+      "ticker": "VALMT.HE",
       "name": "Valmet Oyj",
-      "sector": "Industrials",
+      "sector": "Industrials / process automation",
       "region": "Finland",
       "currency": "EUR",
-      "ownershipStatus": "WATCH",
-      "action": "PENDING · SYNC",
-      "score": 0,
-      "qc": "PENDING · SYNC",
-      "price": 13,
-      "low": 0,
-      "base": 0,
-      "high": 0,
-      "dataFreshness": "—",
+      "ownershipStatus": "OWNED",
+      "action": "WATCH · CONDITIONAL BUY CANDIDATE",
+      "score": 6.6,
+      "qc": "PASS WITH TECHNICAL WARNINGS",
+      "price": 0,
+      "low": 21,
+      "base": 24,
+      "high": 27,
+      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
       "triggers": [],
       "caveats": [
         {
           "id": "valmet-c1",
-          "text": "Placeholder — sync required from terminal",
-          "severity": "high"
+          "severity": "medium",
+          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
         }
       ],
-      "reviewed": "—",
-      "next": "Sync required"
+      "reviewed": "2026-06-05",
+      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit",
+        "memo": "",
+        "masterlog": "https://docs.google.com/document/d/1T8800fSbIVftOKTLPVjZqZiOaTwReK7fGbY34PckvKs/edit"
+      }
     },
     {
       "id": "huhtamaki",
