@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-21T12:19:44.998Z",
+    "syncedAt": "2026-06-21T12:24:27.688Z",
     "source": "Drive"
   },
   "companies": [
@@ -244,28 +244,33 @@
       "id": "vale",
       "ticker": "VALE",
       "name": "Vale S.A.",
-      "sector": "Mining · Iron Ore",
-      "region": "Brazil",
+      "sector": "Mining / commodity cyclical",
+      "region": "Brazil / Global",
       "currency": "USD",
-      "ownershipStatus": "WATCH",
-      "action": "PENDING · SYNC",
-      "score": 0,
-      "qc": "PENDING · SYNC",
-      "price": 10.5,
+      "ownershipStatus": "OWNED",
+      "action": "HOLD · WATCH",
+      "score": 7.6,
+      "qc": "PASS WITH TECHNICAL WARNINGS",
+      "price": 0,
       "low": 0,
       "base": 0,
       "high": 0,
-      "dataFreshness": "—",
+      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
       "triggers": [],
       "caveats": [
         {
           "id": "vale-c1",
-          "text": "Placeholder — sync required from terminal",
-          "severity": "high"
+          "severity": "medium",
+          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
         }
       ],
-      "reviewed": "—",
-      "next": "Sync required"
+      "reviewed": "2026-06-05",
+      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/11hL2pt_rly8lBjv-Eg5XMTILnPry0ZMH5KReO1s3_CQ/edit",
+        "memo": "https://docs.google.com/document/d/1pHGlSMA7Q08loa2f1B9iRhnHX2nBZNsohmqQGeC25TI",
+        "masterlog": "https://docs.google.com/document/d/17-p-SfDwHONep0pMAdA7WB0-WRpcmJ0PTdyuNQFlK1M/edit"
+      }
     },
     {
       "id": "golar",
