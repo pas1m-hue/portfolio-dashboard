@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-18T12:10:24.151Z",
+    "syncedAt": "2026-06-21T12:19:44.998Z",
     "source": "Drive"
   },
   "companies": [
@@ -266,6 +266,38 @@
       ],
       "reviewed": "—",
       "next": "Sync required"
+    },
+    {
+      "id": "golar",
+      "ticker": "GLNG",
+      "name": "Golar LNG Limited",
+      "sector": "Energy / LNG infrastructure",
+      "region": "Global",
+      "currency": "USD",
+      "ownershipStatus": "OWNED",
+      "action": "OWN · ADD ONLY ON CLEAR WEAKNESS",
+      "score": 6.4,
+      "qc": "PASS WITH TECHNICAL WARNINGS",
+      "price": 0,
+      "low": 0,
+      "base": 51,
+      "high": 0,
+      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
+      "triggers": [],
+      "caveats": [
+        {
+          "id": "golar-c1",
+          "severity": "medium",
+          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
+        }
+      ],
+      "reviewed": "2026-06-05",
+      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/11c3QyqBTANPRPq0tXVjUYenaqzOIK7Xx3awalJhLnhQ/edit",
+        "memo": "",
+        "masterlog": "https://docs.google.com/document/d/1GmxCmGg748j28N6cdqzr4vdsg7yQRY55RqG4YX2E6hU/edit"
+      }
     }
   ]
 }
