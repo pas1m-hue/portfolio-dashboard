@@ -1,8 +1,10 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-21T12:46:18.379Z",
-    "source": "Drive"
+    "syncVersion": "v2.2-guards",
+    "syncedAt": "2026-06-21T13:10:40.733Z",
+    "source": "Drive",
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/11c3QyqBTANPRPq0tXVjUYenaqzOIK7Xx3awalJhLnhQ/edit"
   },
   "companies": [
     {
