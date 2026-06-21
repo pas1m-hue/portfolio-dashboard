@@ -6,45 +6,6 @@
   },
   "companies": [
     {
-      "id": "golar-lng",
-      "ticker": "GLNG",
-      "name": "Golar LNG Ltd",
-      "sector": "Energy · LNG",
-      "region": "USA",
-      "currency": "USD",
-      "ownershipStatus": "WATCH",
-      "action": "BUY · PROVISIONAL",
-      "score": 7.2,
-      "qc": "PENDING · 4 ITEMS",
-      "price": 44,
-      "low": 40,
-      "base": 51,
-      "high": 66,
-      "dataFreshness": "Q1 2026",
-      "triggers": [
-        {
-          "id": "golar-lng-t1",
-          "t": "Contracted FLNG floor confirmation",
-          "when": "—",
-          "status": "pending"
-        }
-      ],
-      "caveats": [
-        {
-          "id": "golar-lng-c1",
-          "text": "4 open items pending before Investment Memo",
-          "severity": "high"
-        },
-        {
-          "id": "golar-lng-c2",
-          "text": "Bear-case contracted floor ~40 USD",
-          "severity": "medium"
-        }
-      ],
-      "reviewed": "2026-05-30",
-      "next": "Memo phase pending"
-    },
-    {
       "id": "konecranes",
       "ticker": "KCR.HE",
       "name": "Konecranes Oyj",
