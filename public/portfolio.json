@@ -1,7 +1,7 @@
 {
   "meta": {
     "exportVersion": "v2",
-    "syncedAt": "2026-06-21T12:27:02.132Z",
+    "syncedAt": "2026-06-21T12:40:18.681Z",
     "source": "Drive"
   },
   "companies": [
@@ -213,37 +213,35 @@
     },
     {
       "id": "huhtamaki",
-      "ticker": "HUH1V",
+      "ticker": "HUH1V.HE",
       "name": "Huhtamäki Oyj",
-      "sector": "Packaging",
+      "sector": "Packaging / defensive cyclical",
       "region": "Finland",
       "currency": "EUR",
       "ownershipStatus": "OWNED",
-      "action": "HOLD",
-      "score": 6,
-      "qc": "PASS",
-      "price": 38.5,
-      "low": 35,
-      "base": 40,
-      "high": 45,
-      "dataFreshness": "FY2025",
-      "triggers": [
-        {
-          "id": "huhtamaki-t1",
-          "t": "Volume recovery in flexible packaging",
-          "when": "H2",
-          "status": "pending"
-        }
-      ],
+      "action": "HOLD · WATCH",
+      "score": 6.2,
+      "qc": "PASS WITH TECHNICAL WARNINGS",
+      "price": 0,
+      "low": 0,
+      "base": 0,
+      "high": 0,
+      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
+      "triggers": [],
       "caveats": [
         {
           "id": "huhtamaki-c1",
-          "text": "Fibre-based segment margin recovery unconfirmed",
-          "severity": "medium"
+          "severity": "medium",
+          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
         }
       ],
-      "reviewed": "2026-03-15",
-      "next": "Q2 results · Jul 2026"
+      "reviewed": "2026-06-05",
+      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "links": {
+        "terminal": "https://docs.google.com/spreadsheets/d/1-StFNi3Unbd2kqO8hYespL4F9FxZ-jKX1XRBGlslMkQ/edit",
+        "memo": "https://docs.google.com/document/d/1pfLLhTqTE3XnAB3aTHOAb2KqurplsUXCObpFBqBv7gM/edit",
+        "masterlog": "https://docs.google.com/document/d/1YCVPylNoOjvXhdNfiQ4SXg7JwKJ7wQ4Q-O_HgoOxXxM/edit"
+      }
     },
     {
       "id": "vale",
