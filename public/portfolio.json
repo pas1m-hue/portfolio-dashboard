@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T19:07:42.833Z",
+    "syncedAt": "2026-06-23T19:20:05.038Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/11c3QyqBTANPRPq0tXVjUYenaqzOIK7Xx3awalJhLnhQ/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1UlzKigFmRDM4hXzMqVFyDsZ0ZbKLaRKxfMzfG7jUOe8/edit"
   },
   "companies": [
     {
@@ -66,8 +66,27 @@
       "low": 0,
       "base": 0,
       "high": 0,
-      "dataFreshness": "Q1 2026 + FY2025 annual/SFCR + interim current market data 2026-06-02; external verification pending",
-      "triggers": [],
+      "dataFreshness": "Investment Memo V1 2026-06-02 + V2.3 static QA 2026-06-21; market data verification pending",
+      "triggers": [
+        {
+          "id": "mandatum-t1",
+          "status": "pending",
+          "when": "Q2 2026",
+          "t": "Holding cash bridge and Mandatum Life solo-solvency confirm distributable capital / dividend capacity"
+        },
+        {
+          "id": "mandatum-t2",
+          "status": "pending",
+          "when": "Q2 2026",
+          "t": "Capital-light AUM, net flows, fee margin and normalized PBT continue to scale despite blended fee margin pressure"
+        },
+        {
+          "id": "mandatum-t3",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "SOTP / market data verification shows clear margin of safety versus capital-light value + excess capital"
+        }
+      ],
       "caveats": [
         {
           "id": "mandatum-c1",
@@ -90,8 +109,8 @@
           "text": "SOTP and capital-light PBT normalization caveats remain"
         }
       ],
-      "reviewed": "2026-06-02",
-      "next": "Q2 2026 report / market data verification / Mandatum Life solo-SFCR and cash bridge",
+      "reviewed": "2026-06-21",
+      "next": "Q2 2026 checkpoint: holding cash bridge, Mandatum Life solo-solvency, capital-light AUM/net flows/fee margin/PBT and market data / SOTP margin of safety verification",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/1UlzKigFmRDM4hXzMqVFyDsZ0ZbKLaRKxfMzfG7jUOe8/edit",
         "memo": "https://docs.google.com/document/d/1njHJFNloS4E-pxJye2an4oIJz_jvKcuwDajbcx5QUkI/edit",
