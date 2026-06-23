@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T19:20:05.038Z",
+    "syncedAt": "2026-06-23T19:37:22.040Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1UlzKigFmRDM4hXzMqVFyDsZ0ZbKLaRKxfMzfG7jUOe8/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1y4SAB8uKyM0WVLvs1JgRYWpQ6g6GsPZYLK4u0SV5UCU/edit"
   },
   "companies": [
     {
@@ -22,13 +22,25 @@
       "low": 26,
       "base": 31,
       "high": 37,
-      "dataFreshness": "Q1 2026 + hard-gate / memo update 2026-06-04; Portfolio Dashboard V1 final release 2026-06-05",
+      "dataFreshness": "Q1 2026 + Investment memo V2.1 / Bear module 2026-06-12 + V2.3 static QA 2026-06-21",
       "triggers": [
         {
           "id": "konecranes-t1",
           "status": "pending",
           "when": "Q2/Q3 2026",
           "t": "Revenue recovery, backlog conversion, Service/Port margins and Industrial Equipment margin progress"
+        },
+        {
+          "id": "konecranes-t2",
+          "status": "pending",
+          "when": "Q2 2026",
+          "t": "Service durability, backlog conversion quality and Port project risk evidence before changing buy band"
+        },
+        {
+          "id": "konecranes-t3",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "FCF quality and order book conversion versus working capital / margin risk"
         }
       ],
       "caveats": [
@@ -41,13 +53,18 @@
           "id": "konecranes-c2",
           "severity": "medium",
           "text": "Current market price must be verified before using dashboard values for trading"
+        },
+        {
+          "id": "konecranes-c3",
+          "severity": "high",
+          "text": "Buy band remains frozen unless active positive evidence appears before Q2 and no Service/Port/backlog warning has triggered"
         }
       ],
-      "reviewed": "2026-06-05",
-      "next": "Q2/Q3 2026 checkpoint: revenue recovery, backlog conversion, Service/Port margins and IE margin progress",
+      "reviewed": "2026-06-21",
+      "next": "Q2/Q3 2026 checkpoint: Service durability, backlog conversion quality, Port project risk, IE margin progress and FCF quality before changing buy/add stance",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/1y4SAB8uKyM0WVLvs1JgRYWpQ6g6GsPZYLK4u0SV5UCU/edit",
-        "memo": "",
+        "memo": "https://docs.google.com/document/d/1rYJ7PCUnrllw-TM2ETYm5e51gYjCFPqkzsuyTrAlHvk/edit",
         "masterlog": "https://docs.google.com/document/d/15dA4rfw0KiAGzWu3j5x_Noiy8TS26DZwSsQMr1mYhwg/edit"
       }
     },
