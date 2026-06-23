@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T19:37:22.040Z",
+    "syncedAt": "2026-06-23T19:42:49.033Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1y4SAB8uKyM0WVLvs1JgRYWpQ6g6GsPZYLK4u0SV5UCU/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit"
   },
   "companies": [
     {
@@ -193,7 +193,7 @@
       "low": 21,
       "base": 24,
       "high": 27,
-      "dataFreshness": "Q1 2026 + Investment Memo V1 2026-05-31 + Portfolio Dashboard V1 final release 2026-06-05",
+      "dataFreshness": "Q1 2026 + Investment Memo V1 2026-05-31 + Portfolio Dashboard V2.3 static QA 2026-06-21",
       "triggers": [
         {
           "id": "valmet-t1",
@@ -226,7 +226,7 @@
           "text": "Fair value based on Investment Memo V1 21–27 EUR range; current market price must be verified separately before use"
         }
       ],
-      "reviewed": "2026-06-05",
+      "reviewed": "2026-06-21",
       "next": "Q2 2026 checkpoint: BSS order intake/book-to-bill, BSS margin recovery, FCF / Comparable EBITA normalization and Severn closing/integration",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit",
