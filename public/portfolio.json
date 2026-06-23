@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T18:35:52.001Z",
+    "syncedAt": "2026-06-23T18:39:40.544Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1-StFNi3Unbd2kqO8hYespL4F9FxZ-jKX1XRBGlslMkQ/edit"
   },
   "companies": [
     {
@@ -213,17 +213,46 @@
       "low": 0,
       "base": 0,
       "high": 0,
-      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
-      "triggers": [],
+      "dataFreshness": "Q1 2026 + Dashboard V4 final package / final QA PASS 2026-06-04; Portfolio Dashboard V2.3 cleanup 2026-06-21",
+      "triggers": [
+        {
+          "id": "huhtamaki-t1",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "Growth evidence and segment performance under the 2025 segment structure"
+        },
+        {
+          "id": "huhtamaki-t2",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "FCF Green / Watch confirmation, cash conversion and dividend coverage normalization"
+        },
+        {
+          "id": "huhtamaki-t3",
+          "status": "pending",
+          "when": "2026",
+          "t": "Valuation support versus margin of safety; M&A remains upside option, not base case"
+        }
+      ],
       "caveats": [
         {
           "id": "huhtamaki-c1",
           "severity": "medium",
-          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
+          "text": "Valuation supports ownership and add-review, but is not enough alone for an add decision"
+        },
+        {
+          "id": "huhtamaki-c2",
+          "severity": "medium",
+          "text": "Segment structure changed in 2025 and early trend series include source gap / derived markings"
+        },
+        {
+          "id": "huhtamaki-c3",
+          "severity": "medium",
+          "text": "FCF is Green / Watch, not clean Green; M&A is upside option, not base case"
         }
       ],
-      "reviewed": "2026-06-05",
-      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "reviewed": "2026-06-21",
+      "next": "Q2/Q3 2026 checkpoint: growth evidence, segment performance under the 2025 structure, FCF / cash conversion and valuation support versus required margin of safety",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/1-StFNi3Unbd2kqO8hYespL4F9FxZ-jKX1XRBGlslMkQ/edit",
         "memo": "https://docs.google.com/document/d/1pfLLhTqTE3XnAB3aTHOAb2KqurplsUXCObpFBqBv7gM/edit",
