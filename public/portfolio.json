@@ -2,7 +2,7 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-21T13:16:38.989Z",
+    "syncedAt": "2026-06-23T18:35:52.001Z",
     "source": "Drive",
     "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit"
   },
@@ -157,20 +157,44 @@
       "low": 21,
       "base": 24,
       "high": 27,
-      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
-      "triggers": [],
+      "dataFreshness": "Q1 2026 + Investment Memo V1 2026-05-31 + Portfolio Dashboard V1 final release 2026-06-05",
+      "triggers": [
+        {
+          "id": "valmet-t1",
+          "status": "pending",
+          "when": "Q2 2026",
+          "t": "BSS order intake/book-to-bill and margin recovery versus Q1/2026 weakness"
+        },
+        {
+          "id": "valmet-t2",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "FCF / Comparable EBITA recovery toward 50–65% and dividend coverage normalization"
+        },
+        {
+          "id": "valmet-t3",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "Severn closing/integration, net debt impact and margin contribution visibility"
+        }
+      ],
       "caveats": [
         {
           "id": "valmet-c1",
           "severity": "medium",
-          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
+          "text": "Watch / conditional candidate; stronger action requires BSS stabilization and FCF normalization, not valuation alone"
+        },
+        {
+          "id": "valmet-c2",
+          "severity": "medium",
+          "text": "Fair value based on Investment Memo V1 21–27 EUR range; current market price must be verified separately before use"
         }
       ],
       "reviewed": "2026-06-05",
-      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "next": "Q2 2026 checkpoint: BSS order intake/book-to-bill, BSS margin recovery, FCF / Comparable EBITA normalization and Severn closing/integration",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/1FLAf52r2dPkbZC-HhjDeoXejDTKUmECX5cy44ddOMkw/edit",
-        "memo": "",
+        "memo": "https://docs.google.com/document/d/18ooG1BUljzW-i5b-tZy-0lOd1Btuc85m9OOT5Jnocao/edit",
         "masterlog": "https://docs.google.com/document/d/1T8800fSbIVftOKTLPVjZqZiOaTwReK7fGbY34PckvKs/edit"
       }
     },
