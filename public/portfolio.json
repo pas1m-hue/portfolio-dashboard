@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T18:55:15.617Z",
+    "syncedAt": "2026-06-23T19:07:42.833Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/11hL2pt_rly8lBjv-Eg5XMTILnPry0ZMH5KReO1s3_CQ/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/11c3QyqBTANPRPq0tXVjUYenaqzOIK7Xx3awalJhLnhQ/edit"
   },
   "companies": [
     {
@@ -335,20 +335,49 @@
       "low": 0,
       "base": 51,
       "high": 0,
-      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
-      "triggers": [],
+      "dataFreshness": "Investment Memo V1 2026-06-01 + Portfolio Dashboard V2.3 static QA 2026-06-21",
+      "triggers": [
+        {
+          "id": "golar-t1",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "San Matias pipeline / feedgas evacuation progress and Hilli Argentina redeployment milestones"
+        },
+        {
+          "id": "golar-t2",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "MKII asset-level financing terms, conversion schedule and capex discipline"
+        },
+        {
+          "id": "golar-t3",
+          "status": "pending",
+          "when": "2026-2029",
+          "t": "LNG price / commodity-upside environment sustaining FOB 10-12 or better while Gimi overproduction evidence repeats"
+        }
+      ],
       "caveats": [
         {
           "id": "golar-c1",
+          "severity": "high",
+          "text": "Argentina/SESA/San Matias is a dominant concentration risk, not a generic country-risk footnote"
+        },
+        {
+          "id": "golar-c2",
+          "severity": "high",
+          "text": "MKII is the largest forward EBITDA driver, but also a major execution and financing risk"
+        },
+        {
+          "id": "golar-c3",
           "severity": "medium",
-          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
+          "text": "Commodity upside is real but scenario-weighted; FOB 15, FLNG #4 and strategic review are options, not base-case valuation anchors"
         }
       ],
-      "reviewed": "2026-06-05",
-      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "reviewed": "2026-06-21",
+      "next": "Q2/Q3 2026 checkpoint: San Matias pipeline/feedgas progress, MKII financing and conversion execution, Hilli redeployment, Gimi repeat overproduction evidence and LNG commodity-upside environment",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/11c3QyqBTANPRPq0tXVjUYenaqzOIK7Xx3awalJhLnhQ/edit",
-        "memo": "",
+        "memo": "https://docs.google.com/document/d/1pvK4qWSq6UFzHnCj8_Qm3yldc-1uAh8oynakR3-iA0A/edit",
         "masterlog": "https://docs.google.com/document/d/1GmxCmGg748j28N6cdqzr4vdsg7yQRY55RqG4YX2E6hU/edit"
       }
     }
