@@ -2,9 +2,9 @@
   "meta": {
     "exportVersion": "v2",
     "syncVersion": "v2.2-guards",
-    "syncedAt": "2026-06-23T18:39:40.544Z",
+    "syncedAt": "2026-06-23T18:55:15.617Z",
     "source": "Drive",
-    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/1-StFNi3Unbd2kqO8hYespL4F9FxZ-jKX1XRBGlslMkQ/edit"
+    "sourceSpreadsheet": "https://docs.google.com/spreadsheets/d/11hL2pt_rly8lBjv-Eg5XMTILnPry0ZMH5KReO1s3_CQ/edit"
   },
   "companies": [
     {
@@ -274,17 +274,46 @@
       "low": 0,
       "base": 0,
       "high": 0,
-      "dataFreshness": "2026-06-05 / Portfolio Dashboard V1 final release package",
-      "triggers": [],
+      "dataFreshness": "Investment Memo V1 2026-05-31 + Portfolio Dashboard V2.3 static QA 2026-06-21",
+      "triggers": [
+        {
+          "id": "vale-t1",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "Iron ore price, China steel demand and property cycle direction versus base-case 95–100 USD/t iron ore assumption"
+        },
+        {
+          "id": "vale-t2",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "C1 cash cost normalization toward 2026 guidance range and iron ore all-in cost trend"
+        },
+        {
+          "id": "vale-t3",
+          "status": "pending",
+          "when": "Q2/Q3 2026",
+          "t": "Base Metals EBITDA contribution, expanded net debt direction and shareholder return flexibility"
+        }
+      ],
       "caveats": [
         {
           "id": "vale-c1",
           "severity": "medium",
-          "text": "Technical warning: HTML still Google Docs/source-style artifact, not raw final .html"
+          "text": "Valuation is attractive, but not sufficient alone for aggressive add because China, iron ore, Brazil, ESG, Simandou and expanded net debt risks cap the acceptable multiple"
+        },
+        {
+          "id": "vale-c2",
+          "severity": "high",
+          "text": "C1 cash cost was above the 2026 guidance range in 1Q26; failure to normalize would weaken the case"
+        },
+        {
+          "id": "vale-c3",
+          "severity": "medium",
+          "text": "Expanded net debt around 17.8bn USD limits capital return flexibility if iron ore weakens"
         }
       ],
-      "reviewed": "2026-06-05",
-      "next": "No mandatory post-V1 task; possible V1.1 = raw .html / hosting / final dashboard links",
+      "reviewed": "2026-06-21",
+      "next": "Q2/Q3 2026 checkpoint: iron ore price and China demand, C1 cost normalization, Base Metals EBITDA contribution, expanded net debt and shareholder return flexibility",
       "links": {
         "terminal": "https://docs.google.com/spreadsheets/d/11hL2pt_rly8lBjv-Eg5XMTILnPry0ZMH5KReO1s3_CQ/edit",
         "memo": "https://docs.google.com/document/d/1pHGlSMA7Q08loa2f1B9iRhnHX2nBZNsohmqQGeC25TI",
